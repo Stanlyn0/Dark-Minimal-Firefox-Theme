@@ -25,6 +25,24 @@ macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.de
 
 Create a folder and name it chrome, then just copy the userChrome.css to chrome folder.
 
+# Other stuff
+
+## Pinned tabs
+
+### Get a clean layout with pinned tabs 
+
+Imporant:
+If you pin a tab that automatically refreshes like some page do then this will happen regardless if the tab is pinned or not. If the title of a pinned tab changes because of a refresh then that tab gets some glowing to notify you.
+
+Note that you can disable pinned tabs from loading automatically when you start Firefox by setting the related pref to true on the about:config page.
+
+    browser.sessionstore.restore_pinned_tabs_on_demand (pinned tabs)(false)
+    browser.sessionstore.restore_on_demand (default as set in Options/Preferences -> General)(true)
+    browser.sessionstore.restore_hidden_tabs (tabs in other tab groups)(false) 
+
+Note that Tab groups will be gone in Firefox 45.
+
+You can open the about:config page via the location/address bar. You can accept the warning and click "I'll be careful" to continue. 
 
 # Shortcuts
 
