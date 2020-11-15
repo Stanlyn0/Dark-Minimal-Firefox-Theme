@@ -8,17 +8,17 @@
 
 # Installation
 
-## Open about:config page.
+### Open about:config page.
 
 A dialog will warn you, but ignore it, just do it press the I accept the risk! button.
 
-## Search for this:
+### Search for this:
 toolkit.legacyUserProfileCustomizations.stylesheets
 
 
 Then make sure to enable.
 
-## Go to your Firefox profile.
+### Go to your Firefox profile.
 Linux - $HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/.
 Windows 10 - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX.
 macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX.
