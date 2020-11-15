@@ -31,6 +31,8 @@ Create a folder and name it chrome, then just copy the userChrome.css to chrome 
 
 ### Get a clean layout with pinned tabs 
 
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Pinned%20tabs.png)
+
 Imporant:
 If you pin a tab that automatically refreshes like some page do then this will happen regardless if the tab is pinned or not. If the title of a pinned tab changes because of a refresh then that tab gets some glowing to notify you.
 
