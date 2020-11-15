@@ -1,9 +1,9 @@
 # Dark-Minimal-Firefox-Theme
 ## A simple minimal css theme for Firefox
 
-![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Full.png | width=100)
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Full.png)
 
-![alt text](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/URL%20bar.png | width=800)
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/URL%20bar.png)
 
 
 # Installation
