@@ -12,14 +12,60 @@
     background-color: rgba(50,50,52) !important;
     
   }
-  
-  
-  .bookmark-item > .toolbarbutton-icon {
+
+ /* BUTTONS, HOVER ETC...*/
+
+  .toolbarbutton-1 {
+    filter: grayscale(60%) !important;;
+    --toolbarbutton-hover-background: none !important;
+    --toolbarbutton-active-background: none !important;
+  }
+  .toolbarbutton-1:hover {
+    filter: grayscale(10%) !important;;
     
-    filter: grayscale(100%) !important;
   }
   
- 
+
+  /* Color on Bookmarks Toolbar Item Hover */
+  
+  #personal-bookmarks {
+    --toolbarbutton-hover-background: none !important;
+   }
+
+  #personal-bookmarks .bookmark-item .toolbarbutton-icon {
+    filter: grayscale(100%) !important;;
+   }
+
+#personal-bookmarks .bookmark-item:hover .toolbarbutton-icon {
+    filter: grayscale(50%) !important;;
+    
+   }
+
+
+  
+  /* URLBAR BUTTONS */
+
+  #pocket-button,  {
+    display: none !important;
+}
+
+#star-button-box {
+    display: none !important;
+}
+
+#identity-box {
+    display: none !important;
+}
+
+#tracking-protection-icon-container {
+    display: none !important;
+    
+}
+
+/* URLBAR BUTTONS END */
+
+
+/* TABS*/
 
   .tab-line {
     display: none !important;
@@ -28,7 +74,10 @@
   .tabbroser-tab::after{
   display: none !important;
 }
-
+/* Hide border from rightmost background tab */
+    .tabbrowser-tab::after {
+        opacity: 0 !important; 
+        }
   
   .tab-background {
    
@@ -41,18 +90,23 @@
     border-inline-end: none !important;
 }
 
-
   .tab-background[selected="true"] {
-    background-color: #3B3B3B !important;
+    background-color: none !important;
     background-image: none !important;
-    background-color: rgba(255, 255, 255, 0.06) !important;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2) !important;
+    box-shadow: none !important;
   }
   
   .tab-background[selected="false"] {
     border: none !important;
   }
-  
+  .tabbrowser-tab .tab-icon-image {filter: grayscale(100%) !important;}
+  .tabbrowser-tab .tab-icon-image[selected="true"] {filter: none !important;}
+
+ 
+
+  /* TABS END*/
+
+  /* URL-BAR*/
   
   #urlbar-background {
     background-color: rgba(255,255,255,0.1) !important;
@@ -62,8 +116,12 @@
   
   .urlbarView-body-inner {
     border-top: none !important;
+    
   }
-  
+
+  .urlbar-input-box {
+    padding-left: 12px !important;
+}
   #urlbar[breakout] {
     --urlbar-height: 26px !important;
     --urlbar-toolbar-height: 34px !important;
@@ -88,4 +146,17 @@
     backdrop-filter: blur(5px) brightness(30%) !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
   
+}
+  /* URL-BAR END*/
   
+/* SHOW/HIDE BOOKMARKS ON HOVER & GRAYSCALE ICONS*/
+
+  #personal-bookmarks {
+    opacity: 0.0;
+    transition: all 0.2s ease-in;
+
+  }
+  
+  #navigator-toolbox:hover #personal-bookmarks {
+    opacity: 1.0;
+  }
