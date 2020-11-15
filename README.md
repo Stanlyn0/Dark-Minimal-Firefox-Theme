@@ -1,10 +1,16 @@
 # Dark-Minimal-Firefox-Theme
-## A simple minimal css theme for Firefox
+## A simple minimal theme for Firefox
 
 ![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Full.png)
 
-![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/URL%20bar.png)
+### Transparent dropdown
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Dropdown.png)
 
+### Hide/Show bookmarks
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Bookmarks.gif)
+
+### Greyscale tabs when not active
+![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Tabs.png)
 
 # Installation
 
