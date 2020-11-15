@@ -45,8 +45,9 @@
   
   /* URLBAR BUTTONS */
 
-  #pocket-button,  {
-    display: none !important;
+  
+#pocket-button {
+  display: none;
 }
 
 #star-button-box {
@@ -107,6 +108,13 @@
   /* TABS END*/
 
   /* URL-BAR*/
+
+  
+
+#urlbar {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
   
   #urlbar-background {
     background-color: rgba(255,255,255,0.1) !important;
@@ -116,11 +124,11 @@
   
   .urlbarView-body-inner {
     border-top: none !important;
-    
   }
 
   .urlbar-input-box {
-    padding-left: 12px !important;
+    
+    
 }
   #urlbar[breakout] {
     --urlbar-height: 26px !important;
@@ -160,3 +168,7 @@
   #navigator-toolbox:hover #personal-bookmarks {
     opacity: 1.0;
   }
+  
+  
+
+  
