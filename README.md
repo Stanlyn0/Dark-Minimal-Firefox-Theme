@@ -17,7 +17,17 @@
 ### Open about:config page.
 
 1. In the searchbar type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
-2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`**, **`layers.acceleration.force-enabled`**, **`gfx.webrender.all`**, and **`svg.context-properties.content.enabled`**. Change them to **True**
+2. Search for:
+
+    toolkit.legacyUserProfileCustomizations.stylesheets
+    layers.acceleration.force-enabled
+    gfx.webrender.all
+    gfx.webrender.enabled
+    layout.css.backdrop-filter.enabled
+    svg.context-properties.content.enabled
+
+Then make sure to *enable* them all!
+
 3. Go to your Firefox profile:
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
@@ -28,9 +38,9 @@
 
 # Other stuff
 
-## Pinned tabs
+### Pinned tabs
 
-### Get a clean layout with pinned tabs 
+#### Get a clean layout with pinned tabs 
 
 ![](https://raw.githubusercontent.com/Stanlyn0/Dark-Minimal-Firefox-Theme/main/Images/Pinned%20tabs.png)
 
@@ -46,6 +56,16 @@ Note that you can disable pinned tabs from loading automatically when you start 
 Note that Tab groups will be gone in Firefox 45.
 
 You can open the about:config page via the location/address bar. You can accept the warning and click "I'll be careful" to continue. 
+
+### Highlight searched text 
+
+
+
+Makes the search similar to Opera's where the screen is dim and search results animate.
+    
+    findbar.modalHighlight -> (true) makes the entire page dim except for highlighted. Seems to use more resources.
+    findbar.highlightAll -> (true) just highlights each instance in yellow. Without it, you just find next, and see one at a time.
+
 
 # Shortcuts
 
