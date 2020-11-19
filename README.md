@@ -19,12 +19,12 @@
 1. In the searchbar type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
 2. Search for:
 
-    toolkit.legacyUserProfileCustomizations.stylesheets
-    layers.acceleration.force-enabled
-    gfx.webrender.all
-    gfx.webrender.enabled
-    layout.css.backdrop-filter.enabled
-    svg.context-properties.content.enabled
+    - toolkit.legacyUserProfileCustomizations.stylesheets
+    - layers.acceleration.force-enabled
+    - gfx.webrender.all
+    - gfx.webrender.enabled
+    - layout.css.backdrop-filter.enabled
+    - svg.context-properties.content.enabled
 
 Then make sure to *enable* them all!
 
